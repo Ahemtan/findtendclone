@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/effra-heavy');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Effra Light', sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 5%;
+}
+
+.navbar .left h2{
+    font-family: "inter";
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.navbar .center a{
+    text-decoration: none;
+    color: white;
+    padding-left: 2rem;
+    font-size: 18px;
+}
+
+.navbar .right button.login{
+    background-color: black;
+    color: white;
+    border: 0;
+    font-weight: 400;
+    font-size: 18px;
+    padding-right: 8px;
+}
+
+.navbar .right button{
+    background-color: white;
+    border: inherit;
+    padding: 12px 32px 12px 32px;
+    border-radius: 40px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 6.25rem 10rem;
+    background-image: url("https://assets.website-files.com/6233f2ac51d2013d6dca2856/623a741eedaf0d4909e57ac1_Bg-hero.svg");
+}
+
+.hero h1{
+    font-family: 'Effra Heavy', sans-serif;
+    font-weight: 900;
+    font-size: 72px;
+}
+
+.hero p {
+    width: 660px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    padding: 1rem;
+    color: #8b8b8b;
+}
+
+
+.btn {
+    font-family: 'Effra Heavy', sans-serif;
+    background-color: #A8ff35;
+    color: black;
+    padding: 16px 32px 16px 32px;
+    border-radius: 40px;
+    font-weight: 700;
+    font-size: 18px;
+    border: inherit;
+}
